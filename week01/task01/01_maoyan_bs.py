@@ -51,5 +51,5 @@ for tags in bs_info.find_all('div', attrs={'class': 'movie-hover-info'}):
 mylist = movie_list
 # print(movie_list)
 movie1 = pd.DataFrame(data=mylist)
-movie1.to_csv('Python001-class01/week01/task01/maoyan_top10.csv',
+movie1.to_csv('week01/task01/maoyan_top102.csv',
               encoding='utf-8', index=False, header=False)
